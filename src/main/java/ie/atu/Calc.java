@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Calc {
     public static void main(String[] args) {
         add();
-
     }
 
     public static void add()
@@ -19,5 +18,10 @@ public class Calc {
 
         int total = firstNumber + secondNumber;
         System.out.println("The total is " + total);
+    }
+
+    public static void delete()
+    {
+
     }
 }
